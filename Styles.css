@@ -1,0 +1,18 @@
+/*the size of each box is determined by own many boxes the user wants in the board*/
+.square{
+    border: 0.2px gray solid;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.board{
+    border: 5px black solid;
+    width: 960px; 
+    height: 960px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    text-align: center;
+    margin: 0 auto;
+}
